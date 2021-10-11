@@ -34,7 +34,8 @@ The below three Data-sets were created as part of this analysis
 		Tablename: retirement_titles
 		Columns: emp_no,first_name,last_name,title,from_date,to_date
 		Output filename: retirement_titles.csv
-	
+
+ ![retirement titles](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/retirement_titles.png)
 
 - **Unique titles** - picks most recent title of each employee from  `retirement_titles` dataset as some employees may have multiple titles in the database—for example, due to promotions. `DISTINCT ON` clause is used to pick the unique employee row.
 
@@ -42,12 +43,14 @@ The below three Data-sets were created as part of this analysis
 		Tablename: unique_titles
 		Columns: emp_no,first_name,last_name,title
 		Output filename: unique_titles.csv
+![unique titles](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/unique_titles.png)
 		
 - **Retiring Titles** - aggregates the employee titles who are about to retire and generates the count for the same. 
 
 		Tablename: retiring_titles
 		Columns: count,title
 		Output filename: retiring_titles.csv
+![retiring titles](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/retiring_titles.png)
 		
 **2. Analysis: Employees who are eligible to participate in a mentorship programe**
 
@@ -58,6 +61,8 @@ The below Data-set was created for this analysis
 		Tablename: mentorship_eligibilty
 		Columns: emp_no,first_name,last_name,birth_date,to_date,from_date,title
 		Output filename: mentorship_eligibilty.csv
+
+![mentorship_eligible_title](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/mentorship_eligible_title.png)
 		
 #### Major points from the above two analysis
 
@@ -76,7 +81,6 @@ The below Data-set was created for this analysis
   
 - Most of the mentorship eligible group are Engineer,Senior Engineer,Senior Staff and Staff i.e. **1420** Very few are Assistant Engineer and Technique Leader i.e. **129**
  
-
 ## Summary 
 
 
