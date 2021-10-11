@@ -68,7 +68,7 @@ The below Data-set was created for this analysis
  
 - For **90,398** upcoming vacancies only **1549** employees are eligible mentors given the criteria that the employees born in year 1965 only are eligible for mentoring.
 
-  ![mentorship_eligible_title_count](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/mentorship_eligible_title_count.png)
+   ![mentorship_eligible_title_count](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/mentorship_eligible_title_count.png)
 
 - Employees who have joined company from 1985 - 1999 i.e **1489** employees are major part of the mentorship eligible group whereas the employees who have joined from 2000-2002 are very few i.e **60** employees.
   ![count_of_retiring_employees_per_joining_year](https://github.com/Sheetaltkr/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Challenge/Images/count_of_retiring_employees_per_joining_year.png)
